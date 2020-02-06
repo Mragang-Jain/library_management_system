@@ -1,0 +1,40 @@
+form li {
+  display: block;
+  text-decoration: none;
+  color: #1f5350;
+  font-size: 15px;
+  background-color: #cde9e7;
+}
+
+form ul {
+  list-style: none;
+  padding: 0;
+  width: 465px;
+}
+
+form ul li {
+    border: groove;
+    margin-left: 37px;
+    width: 100%;
+}
+
+form ul li a:hover {
+  color: #b23b61;
+  background: #ecd1da;
+}
+
+form ul li:hover {
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  -o-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+.suggestions li {
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}

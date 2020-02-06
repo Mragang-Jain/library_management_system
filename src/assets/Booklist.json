@@ -1,0 +1,58 @@
+[
+    {
+      "title": "Origins",
+      "author": "Dan Brown",
+      "genre": "Medical thriller",
+      "summary": "The fifth installment in the Robert Langdon series",
+      "id": 1001
+    },
+    {
+      "title": "Crisis",
+      "author": "Robin Cook",
+      "genre": "Mystery thriller",
+      "summary": "The terrifying story of a doctor who is the victim of a medical malpractise crisis",
+      "id": 1002
+    },
+    {
+      "title": "When Breath Becomes Air",
+      "author": "Paul Kalanithi",
+      "genre": "Nonfiction",
+      "summary": "The memoir of Paul Kalanithi, a neurosurgeon at Stanford University, who is diagnosed with terminal lung cancer in his mid-thirties.",
+      "id": 1003
+    },
+    {
+      "title": "Manual for Living",
+      "author": "Epictetus",
+      "genre": "Nonfiction",
+      "summary": "Some things are in your power and some are not—do not confuse the two and do not desire the things that are not in your power.",
+      "id": 1004
+    },
+    {
+      "title": "Meditations",
+      "author": "Marcus Aurelius",
+      "genre": "Nonfiction",
+      "summary": "One of the world's most famous and influential books, Meditations, by the Roman emperor Marcus Aurelius (A.D. 121–180).",
+      "id": 1005
+    },
+    {
+      "title": "Fooled by Randomness",
+      "author": "Nassim Nicholas Taleb",
+      "genre": "Business Books",
+      "summary": "Randomness, chance, and luck influence our lives and our work more than we realize.",
+      "id": 1006
+    },
+    {
+      "title": "What Got You Here Won’t Get You There",
+      "author": "Marshall Goldsmith",
+      "genre": "Business Books",
+      "summary": "Behavioral problems, not technical skills, are what separate the great from the near great.",
+      "id": 1007
+    },
+    {
+      "title": "Not Fade Away",
+      "author": "Laurence Shames and Peter Barton",
+      "genre": "Business Books",
+      "summary": "It is more important to live fully than to live in a straight line. The surest gauge of the impact a life makes is how many other lives it touches.",
+      "id": 1008
+    }
+  ]

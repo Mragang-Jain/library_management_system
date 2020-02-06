@@ -1,40 +1,33 @@
 {
   "name": "library_management_system",
-  "version": "1.0.0",
-  "description": "Library Management System",
-  "main": "index.js",
-  "scripts": {
-    "client-install": "npm i --prefix client",
-    "client": "npm start --prefix client",
-    "start": "node index.js",
-    "server": "nodemon index.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build ==prefix client"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kishpathak/Library_Management_System.git"
-  },
-  "author": "Keshav Kishlay",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kishpathak/Library_Management_System/issues"
-  },
-  "homepage": "https://github.com/kishpathak/Library_Management_System#readme",
+  "version": "0.1.0",
+  "private": true,
+  "author": "keshav.kishlay@infosys.com",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.3",
-    "concurrently": "^4.1.0",
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "jsonwebtoken": "^8.5.1",
-    "mongodb": "^3.2.3",
-    "mongoose": "^5.5.1",
-    "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0",
-    "validator": "^10.11.0"
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.18.11"
-  }
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

@@ -23,7 +23,7 @@ class App extends Component {
         <Fragment>
           <nav className="navbar navbar-expand-md bg-dark navbar-dark ">
             <div className="navbar-header">
-              <Link className="navbar-brand" to="/">Library Management System</Link>
+              <Link className="navbar-brand" to="/">Library</Link>
             </div>
             <ul className="navbar-nav ">
               <li className="nav-item">
